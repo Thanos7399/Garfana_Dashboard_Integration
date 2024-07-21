@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0.1 (Python 3.8.10 on linux)" generated="2024-07-03T17:54:34.520979" rpa="false" schemaversion="5">
+<robot generator="Robot 7.0.1 (Python 3.8.10 on linux)" generated="2024-07-20T16:24:17.810642" rpa="false" schemaversion="5">
 <suite id="s1" name="Parsing" source="/home/einfochips/Desktop/Project/Robot_Frame_Work/ParsingData/parsing.robot">
 <test id="s1-t1" name="Get Test Case Counts" line="9">
 <kw name="Get Test Case Counts" owner="robot_log_parser">
-<msg time="2024-07-03T17:54:34.555564" level="INFO">Pass count: 3, Fail count: 0, Skip count: 0</msg>
-<msg time="2024-07-03T17:54:34.555674" level="INFO">${pass_count} = 3</msg>
-<msg time="2024-07-03T17:54:34.555723" level="INFO">${fail_count} = 0</msg>
-<msg time="2024-07-03T17:54:34.555764" level="INFO">${skip_count} = 0</msg>
+<msg time="2024-07-20T16:24:17.836446" level="INFO">Pass count: 3, Fail count: 0, Skip count: 0</msg>
+<msg time="2024-07-20T16:24:17.836550" level="INFO">${pass_count} = 3</msg>
+<msg time="2024-07-20T16:24:17.836590" level="INFO">${fail_count} = 0</msg>
+<msg time="2024-07-20T16:24:17.836626" level="INFO">${skip_count} = 0</msg>
 <var>${pass_count}</var>
 <var>${fail_count}</var>
 <var>${skip_count}</var>
 <arg>${OUTPUT_XML_PATH}</arg>
-<status status="PASS" start="2024-07-03T17:54:34.555107" elapsed="0.000678"/>
+<status status="PASS" start="2024-07-20T16:24:17.836040" elapsed="0.000605"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-07-03T17:54:34.556197" level="INFO">Pass count: 3</msg>
+<msg time="2024-07-20T16:24:17.837075" level="INFO">Pass count: 3</msg>
 <arg>Pass count: ${pass_count}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-07-03T17:54:34.556013" elapsed="0.000231"/>
+<status status="PASS" start="2024-07-20T16:24:17.836857" elapsed="0.000265"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-07-03T17:54:34.556593" level="INFO">Fail count: 0</msg>
+<msg time="2024-07-20T16:24:17.837393" level="INFO">Fail count: 0</msg>
 <arg>Fail count: ${fail_count}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-07-03T17:54:34.556431" elapsed="0.000207"/>
+<status status="PASS" start="2024-07-20T16:24:17.837258" elapsed="0.000177"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-07-03T17:54:34.556981" level="INFO">Skip count: 0</msg>
+<msg time="2024-07-20T16:24:17.837690" level="INFO">Skip count: 0</msg>
 <arg>Skip count: ${skip_count}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-07-03T17:54:34.556821" elapsed="0.000203"/>
+<status status="PASS" start="2024-07-20T16:24:17.837563" elapsed="0.000167"/>
 </kw>
 <doc>Get pass, fail, and skip counts from Robot Framework output.xml</doc>
-<status status="PASS" start="2024-07-03T17:54:34.554100" elapsed="0.003106"/>
+<status status="PASS" start="2024-07-20T16:24:17.835235" elapsed="0.002624"/>
 </test>
-<status status="PASS" start="2024-07-03T17:54:34.522609" elapsed="0.035083"/>
+<status status="PASS" start="2024-07-20T16:24:17.811592" elapsed="0.026621"/>
 </suite>
 <statistics>
 <total>
