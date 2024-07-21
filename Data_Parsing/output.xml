@@ -1,71 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0.1 (Python 3.8.10 on linux)" generated="2024-07-03T17:50:09.459275" rpa="false" schemaversion="5">
+<robot generator="Robot 7.0.1 (Python 3.8.10 on linux)" generated="2024-07-21T15:33:46.210300" rpa="false" schemaversion="5">
 <suite id="s1" name="Tables" source="/home/einfochips/Desktop/Project/Robot_Frame_Work/Data_Parsing/tables.robot">
 <test id="s1-t1" name="Test 1" line="9">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-07-03T17:50:09.574959" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
+<msg time="2024-07-21T15:33:46.323173" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
 <arg>https://www.google.com/</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-07-03T17:50:09.574487" elapsed="2.882329"/>
+<status status="PASS" start="2024-07-21T15:33:46.322902" elapsed="1.720568"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2024-07-03T17:50:15.458401" level="INFO">Slept 3 seconds.</msg>
+<msg time="2024-07-21T15:33:51.045174" level="INFO">Slept 3 seconds.</msg>
 <arg>3s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-07-03T17:50:12.457533" elapsed="3.001376"/>
+<status status="PASS" start="2024-07-21T15:33:48.044298" elapsed="3.001445"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2024-07-03T17:50:15.459979" elapsed="0.070532"/>
+<status status="PASS" start="2024-07-21T15:33:51.046917" elapsed="0.069407"/>
 </kw>
-<status status="PASS" start="2024-07-03T17:50:09.573285" elapsed="5.957815"/>
+<status status="PASS" start="2024-07-21T15:33:46.322026" elapsed="4.794727"/>
 </test>
 <test id="s1-t2" name="Test 2" line="13">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-07-03T17:50:15.532613" level="INFO">Opening browser 'chrome' to base url 'https://city.imd.gov.in/citywx/city_weather.php?id=42647'.</msg>
+<msg time="2024-07-21T15:33:51.118123" level="INFO">Opening browser 'chrome' to base url 'https://city.imd.gov.in/citywx/city_weather.php?id=42647'.</msg>
 <arg>https://city.imd.gov.in/citywx/city_weather.php?id=42647</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-07-03T17:50:15.532238" elapsed="2.735094"/>
+<status status="PASS" start="2024-07-21T15:33:51.117805" elapsed="1.226144"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2024-07-03T17:50:23.268596" level="INFO">Slept 5 seconds.</msg>
+<msg time="2024-07-21T15:33:57.345237" level="INFO">Slept 5 seconds.</msg>
 <arg>5s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-07-03T17:50:18.267926" elapsed="5.001156"/>
+<status status="PASS" start="2024-07-21T15:33:52.344557" elapsed="5.000902"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2024-07-03T17:50:23.270332" elapsed="0.065780"/>
+<status status="PASS" start="2024-07-21T15:33:57.345820" elapsed="0.064630"/>
 </kw>
-<status status="PASS" start="2024-07-03T17:50:15.531606" elapsed="7.805127"/>
+<status status="PASS" start="2024-07-21T15:33:51.117177" elapsed="6.293831"/>
 </test>
 <test id="s1-t3" name="HTML Report Validation" line="18">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-07-03T17:50:23.338674" level="INFO">Opening browser 'chrome' to base url 'file:///home/einfochips/Desktop/Project/Robot_Frame_Work/Data_Parsing/report.html'.</msg>
+<msg time="2024-07-21T15:33:57.412283" level="INFO">Opening browser 'chrome' to base url 'file:///home/einfochips/Desktop/Project/Robot_Frame_Work/Data_Parsing/report.html'.</msg>
 <arg>${REPORT_PATH}</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-07-03T17:50:23.338071" elapsed="0.623558"/>
+<status status="PASS" start="2024-07-21T15:33:57.411964" elapsed="0.523643"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2024-07-03T17:50:23.962262" elapsed="0.105555"/>
+<status status="PASS" start="2024-07-21T15:33:57.936381" elapsed="0.025056"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2024-07-03T17:50:29.069045" level="INFO">Slept 5 seconds.</msg>
+<msg time="2024-07-21T15:34:02.962643" level="INFO">Slept 5 seconds.</msg>
 <arg>5 seconds</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-07-03T17:50:24.068146" elapsed="5.001340"/>
+<status status="PASS" start="2024-07-21T15:33:57.961821" elapsed="5.001666"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2024-07-03T17:50:29.070488" elapsed="0.068925"/>
+<status status="PASS" start="2024-07-21T15:34:02.964805" elapsed="0.065350"/>
 </kw>
-<status status="PASS" start="2024-07-03T17:50:23.337271" elapsed="5.803745"/>
+<status status="PASS" start="2024-07-21T15:33:57.411495" elapsed="5.619064"/>
 </test>
-<status status="PASS" start="2024-07-03T17:50:09.461072" elapsed="19.682617"/>
+<status status="PASS" start="2024-07-21T15:33:46.211464" elapsed="16.819821"/>
 </suite>
 <statistics>
 <total>

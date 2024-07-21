@@ -9,7 +9,7 @@ ${REPORT_PATH}    file:///home/einfochips/Desktop/Project/Robot_Frame_Work/Data_
 Test 1
     Open Browser    https://www.google.com/    chrome
     Sleep    3s
-    Close Browsersql
+    Close Browser
 Test 2
     Open Browser    https://city.imd.gov.in/citywx/city_weather.php?id=42647    chrome
     Sleep    5s
